@@ -1,0 +1,29 @@
+<html>
+<head>
+<p>
+<h1> image filtering with Javascript</h1>
+</p>
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+</script>
+<script src=script.js></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<p>
+  <canvas id = "can1"></canvas>
+  <br>
+  <input type="file" id="finput" multiple="false" accept="image/*" value="load Image" onchange="upload()">
+    <br>
+  <br>
+  <input type="button" class="1" value="red filter"
+         onclick="makeredfilter()">
+  <input type="button" class="2" value="gray scale" onclick="makegrayscale()">
+  <input type="button" class="3" value="rainbow filter" onclick="rainbow()">
+  
+  <br>
+  <br>
+  <input type="button" value="Reset Image" onclick="resetImage()">
+  
+</p>
+</body>
+</html>

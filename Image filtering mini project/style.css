@@ -1,0 +1,11 @@
+#can1{
+  border:1px solid #c0c0c0;
+  height:250px;
+}
+input:hover[type="button"] 
+		{
+			background: cyan;
+  }
+body{
+  background-color:#FFCCCC;
+}
