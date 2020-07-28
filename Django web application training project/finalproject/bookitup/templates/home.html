@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+    <head>
+      {%load static%}
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Welcome to Bookitup</title>
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+      body {
+ background-image: url("{%static '/img/resort2.jpg' %}");
+ background-color: #cccccc;
+}
+.a{color:#FFFFFF;}
+        .b{color:#FFFFFF;}
+        .a3{background:#000000;}
+
+       </style>
+        {% load static %}
+        <link rel="apple-touch-icon" href="{%static 'apple-touch-icon.png' %}">
+
+        <link rel="stylesheet" href="{%static '/css/bootstrap.min.css' %}">
+        <link rel="stylesheet" href="{%static '/css/bootstrap-theme.min.css' %}">
+        <link rel="stylesheet" href="{%static '/css/fontAwesome.css' %}">
+        <link rel="stylesheet" href="{%static '/css/templatemo-style.css' %}">
+
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+
+        <div class="overlay"></div>
+        <section class="top-part">
+        </section>
+        
+        <section class="cd-hero">
+
+
+          <div class="cd-slider-nav">
+
+            <nav>
+              <span class="cd-marker item-1"></span>
+              <ul>
+                {% load static %}
+                <li class="selected"><a href="home"><div class="image-icon" style="background:#CEDEF4"><img src="{%static '/img/home-icon.png' %}"></div><h6 class="b">Welcome</h6></a></li>
+                <li><a href="fabout"><div class="image-icon" style="background:#CEDEF4"><img src="{%static '/img/about-icon.png' %}"></div><h6>About Us</h6></a></li>
+                <li><a href="testimonials"><div class="image-icon" style="background:#CEDEF4"><img src="{%static '/img/aslimaal.png' %}"></div><h6>Testimonials</h6></a></li>
+                  <li><a href="rooms"><div class="image-icon" style="background:#CEDEF4"><img src="{%static '/img/key.png' %}"></div><h6>Rooms</h6></a></li>
+                <li><a href="contactus"><div class="image-icon" style="background:#CEDEF4"><img src="{%static '/img/contact-icon.png' %}"></div><h6>Contact Us</h6></a></li>
+              </ul>
+            </nav> 
+          </div> <!-- .cd-slider-nav -->
+
+              <div class="heading">
+                <h1>BOOKITUP</h1>
+                <h5 class="a">A place where you can book rooms very quickly and easily with a variety of options available</h5>
+                <span>Welcome to the world of comfort... </span></div>
+              <div class="cd-full-width first-slide">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="content first-content">
+                        <img class='a1' style="width:'100%';" src="{%static '/img/resort1.jpg'%}">
+                        <h3>BOOKITUP<br>The finest app to plan your staying</h3>
+                          <h4>Welcomes {{Username}} </h4>
+                          <h4></h4>
+                        <p>So are you guys ready to book an amazing room for a vacation. So you have chosen a right place for planning.</p>
+                        <div class="primary-button">
+                          <a href="/home/fabout">Discover More</a>
+                          <br>
+                          <br>
+
+                          <div class="call-to-action">
+
+							</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>                  
+                </div>
+              </div>
+            </li>
+        </section>
+    </body>
+             </html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {%load static%}
+    <meta charset="UTF-8">
+    <title>Testimonials</title>
+
+        <link rel="stylesheet" href="{% static '/css/bootstrap.min.css' %}">
+        <link rel="stylesheet" href="{% static '/css/bootstrap-theme.min.css' %}">
+        <link rel="stylesheet" href="{% static '/css/fontAwesome.css' %}">
+        <link rel="stylesheet" href="{% static '/css/templatemo-style.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static '/styles/bootstrap-4.1.2/bootstrap.min.css'%}">
+        <link href="{% static '/plugins/font-awesome-4.7.0/css/font-awesome.min.css'%}" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="{% static '/plugins/OwlCarousel2-2.3.4/owl.carousel.css'%}">
+        <link rel="stylesheet" type="text/css" href="{% static '/plugins/OwlCarousel2-2.3.4/owl.theme.default.css'%}">
+         <link rel="stylesheet" type="text/css" href="{% static '/plugins/OwlCarousel2-2.3.4/animate.css'%}">
+         <link href="{% static '/plugins/jquery-datepicker/jquery-ui.css'%}" rel="stylesheet" type="text/css">
+         <link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
+     <link rel="stylesheet" type="text/css" href="{% static '/styles/main_styles.css'%}">
+<link rel="stylesheet" type="text/css" href="{% static '/styles/responsive.css'%}">
+        <link href="" rel="stylesheet">
+
+        <script src="{%static '/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js' %}"></script>
+     <link rel="stylesheet" href="{%static '/css/style3.css' %}">
+	 <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap Testimonial Slider - Free Template</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+        <link rel="stylesheet" href="{%static '/assets/bootstrap/css/bootstrap.min.css'%}">
+        <link rel="stylesheet" href="{%static '/assets/font-awesome/css/font-awesome.min.css'%}">
+        <link rel="stylesheet" href="{%static '/assets/css/style.css'%}">
+
+	<link rel="shortcut icon" href="{%static '/assets/ico/favicon.png'%}">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{%static '/assets/ico/apple-touch-icon-144-precomposed.png'%}">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{%static '/assets/ico/apple-touch-icon-114-precomposed.png'%}">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{%static '/assets/ico/apple-touch-icon-72-precomposed.png'%}">
+        <link rel="apple-touch-icon-precomposed" href="{%static '/assets/ico/apple-touch-icon-57-precomposed.png'%}">
+
+<style>.testimonials-container{
+background: url("{%static '/img/resort32.jpg' %}")no-repeat center center fixed;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}</style>
+</head>
+<body>
+{% load static %}
+<div class="cd-slider-nav" style="background:#000000">
+            <nav>
+              <span class="cd-marker item-1"></span>
+              <ul>
+                {% load static %}
+                <li class="selected"><a href="../"><div class="image-icon"><img src="{%static '/img/home-icon.png' %}"></div><h6>Welcome</h6></a></li>
+                <li><a href="../fabout"><div class="image-icon"><img src="{%static '/img/about-icon.png' %}"></div><h6>About Us</h6></a></li>
+                <li><a href="../testimonials"><div class="image-icon"><img src="{%static '/img/aslimaal.png' %}"></div><h6>Testimonials</h6></a></li>
+                <li><a href="../rooms"><div class="image-icon"><img src="{%static '/img/key.png' %}"></div><h6>Rooms</h6></a></li>
+                <li><a href="../contactus"><div class="image-icon"><img src="{%static '/img/contact-icon.png' %}"></div><h6>Contact Us</h6></a></li>
+              </ul>
+            </nav>
+          </div>
+           <div class="testimonials-container section-container section-container-image-bg" >
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-12 testimonials section-description">
+	                	<h2 style="color:#fff;font-size: 50px;font-weight: bold;">Our Testimonials</h2>
+	                    <p class="medium-paragraph" style="color:#fff;">Take a look below to learn what our clients are saying about us:</p>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="col-sm-10 col-sm-offset-1 testimonial-list">
+	                	<div role="tabpanel">
+	                		<!-- Tab panes -->
+	                		<div class="tab-content">
+	                			<div role="tabpanel" class="tab-pane fade in active" id="tab1">
+	                				<div class="testimonial-image">
+	                					<img src="{%static '/img/user_1.jpg'%}" alt="t1">
+	                				</div>
+	                				<div class="testimonial-text">
+										<p style="color:#fff;font-size:30px">William Olsen,Greece</p>
+		                                <p style="color:#fff;font-size:30px">
+		                                	Very Excellent services.<br>
+
+		                                </p>
+	                                </div>
+	                			</div>
+	                			<div role="tabpanel" class="tab-pane fade" id="tab2">
+	                				<div class="testimonial-image">
+	                					<img src="{%static 'img/user_10.jpg'%}" alt="t2">
+	                				</div>
+	                				<div class="testimonial-text">
+										<p style="color:#fff;font-size:30px">Selena Gomez,USA</p>
+		                                	<br>
+		                                 <p style="color:#fff;font-size:30px">
+											 One of my favourite app<br></p>
+
+	                                </div>
+	                			</div>
+	                			<div role="tabpanel" class="tab-pane fade" id="tab3">
+	                				<div class="testimonial-image">
+	                					<img src="{%static '/assets/img/testimonials/3.jpg'%}" alt="t3">
+	                				</div>
+	                				<div class="testimonial-text">
+		                                <p style="color:#fff;font-size:30px">Anjelina Lightwood,New York</p>
+		                                	 <p style="color:#fff;font-size:30px">
+		                                	Very convenient and fast.<br><br>
+
+		                                </p>
+	                                </div>
+	                			</div>
+	                			<div role="tabpanel" class="tab-pane fade" id="tab4">
+	                				<div class="testimonial-image">
+	                					<img src="{%static '/assets/img/testimonials/4.jpg'%}" alt="t4">
+	                				</div>
+	                				<div class="testimonial-text">
+		                                 <p style="color:#fff;font-size:30px">Alexendar Bane,London</p>
+		                                	 <p style="color:#fff;font-size:30px">
+		                                	Made my trip perfect.<br><br>
+
+		                                </p>
+	                                </div>
+	                			</div>
+	                		</div>
+
+	                		<ul class="nav nav-tabs" role="tablist">
+	                			<li role="presentation" class="active">
+	                				<a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab"></a>
+	                			</li>
+	                			<li role="presentation">
+	                				<a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab"></a>
+	                			</li>
+	                			<li role="presentation">
+	                				<a href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab"></a>
+	                			</li>
+	                			<li role="presentation">
+	                				<a href="#tab4" aria-controls="tab4" role="tab" data-toggle="tab"></a>
+	                			</li>
+	                		</ul>
+	                	</div>
+	                </div>
+	            </div>
+	        </div>
+        </div>
+
+
+        <footer style="color:#000;">
+	        <div class="container">
+	            <div class="row">
+           			<div class="col-sm-5 footer-copyright">
+
+                    </div>
+           			<div class="col-sm-7 footer-social">
+                    	<p>
+	                    	<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-google-plus"></i></a>
+							<a href="#"><i class="fa fa-instagram"></i></a>
+							<a href="#"><i class="fa fa-pinterest"></i></a>
+						</p>
+                    </div>
+           		</div>
+	        </div>
+        </footer>
+
+
+<script src="{%static '/assets/js/jquery-1.11.1.min.js'%}"></script>
+<script src="{%static '/assets/bootstrap/js/bootstrap.min.js'%}"></script>
+<script src="{%static '/assets/js/jquery.backstretch.min.js'%}"></script>
+<script src="{%static '/assets/js/scripts.js'%}"></script>
+<script src="{%static '/js/jquery-3.3.1.min.js'%}"></script>
+<script src="{%static '/styles/bootstrap-4.1.2/popper.js'%}"></script>
+<script src="{%static '/styles/bootstrap-4.1.2/bootstrap.min.js'%}"></script>
+<script src="{%static '/plugins/greensock/TweenMax.min.js'%}"></script>
+<script src="{%static '/plugins/greensock/TimelineMax.min.js'%}"></script>
+<script src="{%static '/plugins/scrollmagic/ScrollMagic.min.js'%}"></script>
+<script src="{%static '/plugins/greensock/animation.gsap.min.js'%}"></script>
+<script src="{%static '/plugins/greensock/ScrollToPlugin.min.js'%}"></script>
+<script src="{%static '/plugins/OwlCarousel2-2.3.4/owl.carousel.js'%}"></script>
+<script src="{%static '/plugins/easing/easing.js'%}"></script>
+<script src="{%static '/plugins/progressbar/progressbar.min.js'%}"></script>
+<script src="{%static '/plugins/parallax-js-master/parallax.min.js'%}"></script>
+<script src="{%static '/plugins/jquery-datepicker/jquery-ui.js'%}"></script>
+<script src="{%static '/plugins/colorbox/jquery.colorbox-min.js'%}"></script>
+<script src="{%static '/js/custom.js'%}"></script>
+</body>
+</html>
+
